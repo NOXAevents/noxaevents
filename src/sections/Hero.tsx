@@ -34,7 +34,7 @@ export default function Hero() {
       <div className="flex-1 flex flex-col items-center justify-center px-6 pt-28 pb-16 relative">
         <motion.div style={{ y: yLogo, opacity: fade }} className="relative flex flex-col items-center">
           <motion.img
-            src="/logo-large.png"
+            src={`${import.meta.env.BASE_URL}logo-large.png`}
             alt="NOXA Events"
             className="w-[min(88vw,760px)] mix-blend-screen"
             initial={{ opacity: 0, scale: 0.96 }}
