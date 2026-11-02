@@ -22,11 +22,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Extract source folders
-        run: |
-          unzip -o src.zip -d .
-          unzip -o public.zip -d .
-
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
