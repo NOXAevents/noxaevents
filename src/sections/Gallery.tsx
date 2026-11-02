@@ -1,12 +1,13 @@
+
 import { Reveal, Spark } from '../components/Reveal';
 
 const PHOTOS = [
-  { src: '/photos/IMG_2467.jpeg', label: 'Workshop pod šírym nebom', color: '#b8e6d0', span: 'md:col-span-7', ratio: 'aspect-[4/3]' },
-  { src: '/photos/IMG_2465.jpeg', label: 'Kreatívny sprint tímu', color: '#ffc2e8', span: 'md:col-span-5', ratio: 'aspect-[3/4]' },
-  { src: '/photos/IMG_2468.jpeg', label: 'Letný firemný piknik', color: '#f5e6a8', span: 'md:col-span-5', ratio: 'aspect-[3/4]' },
-  { src: '/photos/IMG_2471.jpeg', label: 'Teambuilding na vode', color: '#ffc9a3', span: 'md:col-span-7', ratio: 'aspect-[4/3]' },
-  { src: '/photos/IMG_2469.jpeg', label: 'Neformálne stretnutie v parku', color: '#c9b8f5', span: 'md:col-span-7', ratio: 'aspect-[4/3]' },
-  { src: '/photos/IMG_2466.jpeg', label: 'Backstage príprav', color: '#ffc2e8', span: 'md:col-span-5', ratio: 'aspect-[3/4]' },
+  { src: `${import.meta.env.BASE_URL}photos/IMG_2467.jpeg`, label: 'Workshop pod šírym nebom', color: '#b8e6d0', span: 'md:col-span-7', ratio: 'aspect-[4/3]' },
+  { src: `${import.meta.env.BASE_URL}photos/IMG_2465.jpeg`, label: 'Kreatívny sprint tímu', color: '#ffc2e8', span: 'md:col-span-5', ratio: 'aspect-[3/4]' },
+  { src: `${import.meta.env.BASE_URL}photos/IMG_2468.jpeg`, label: 'Letný firemný piknik', color: '#f5e6a8', span: 'md:col-span-5', ratio: 'aspect-[3/4]' },
+  { src: `${import.meta.env.BASE_URL}photos/IMG_2471.jpeg`, label: 'Teambuilding na vode', color: '#ffc9a3', span: 'md:col-span-7', ratio: 'aspect-[4/3]' },
+  { src: `${import.meta.env.BASE_URL}photos/IMG_2469.jpeg`, label: 'Neformálne stretnutie v parku', color: '#c9b8f5', span: 'md:col-span-7', ratio: 'aspect-[4/3]' },
+  { src: `${import.meta.env.BASE_URL}photos/IMG_2466.jpeg`, label: 'Backstage príprav', color: '#ffc2e8', span: 'md:col-span-5', ratio: 'aspect-[3/4]' },
 ];
 
 export default function Gallery() {
